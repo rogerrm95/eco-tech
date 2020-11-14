@@ -1,6 +1,6 @@
 # 🚀 Tecnologias
-O app foi desenvolvidos com:
-- [Nodejs](https://nodejs.org/en/)
+O app foi desenvolvido com:
+- [Node.js](https://nodejs.org/en/)
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.io/)
 - [TypeScript](https://www.typescriptlang.org/)
@@ -9,7 +9,7 @@ O app foi desenvolvidos com:
 O Ecotech é um app para coleta de lixo eletrônico.
 
 # 📱 Layout
-No link abaixo você encontra o layout do projeto mobile. Caso você não tenha uma conta no [figma](https://www.figma.com/), é necessário se cadastrar para conseguir aceesá-lo.
+No link abaixo você encontra o layout do projeto mobile. Caso você não tenha uma conta no [figma](https://www.figma.com/), é necessário se cadastrar para conseguir acessá-lo.
 - [Layout Mobile](https://www.figma.com/file/e5C8yxeXO4KXCha9UjGu28/EcoTech---Mobile)
 
 # 💻 Executando o projeto
