@@ -84,7 +84,9 @@ function MapPoints() {
                     location.map((place: any, index: number) => {
                         return <Marker
                             coordinate={place}
-                            key={index}
+                                 
+                            key={`marker-${index}`}
+
                             title={Address[place.id].name}
                         />
                     })
@@ -114,11 +116,13 @@ function MapPoints() {
             >
 
                 {
-                    // Carrega os dados do posto de coleta //
-                    location.map((place : any) =>{
+
+                    // Carrega os dados do posto de coleta//
+                    location.map((place : any, index: number) =>{
                         return (
                             <InfoItem
-                                key={place.id}
+                                key={`info-${index}`}
+
                                 name={Address[place.id].name}
                                 description={Address[place.id].description}
                                 phone={Address[place.id].phone}
