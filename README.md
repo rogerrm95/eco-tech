@@ -13,5 +13,19 @@ No link abaixo você encontra o layout do projeto mobile. Caso você não tenha 
 - [Layout Mobile](https://www.figma.com/file/e5C8yxeXO4KXCha9UjGu28/EcoTech---Mobile)
 
 # 💻 Executando o projeto
-Primeiro você vai precisar instalar o NodeJs, o yarn e o app Expo (vc encontra o Node e o Yarn para os mesmos no tópico tecnologias logo acima e o app tanto na Apple Store como na Google Play).
-Dentro da pasta Ecotech no terminal, execute [yarn add expo] e em seguida [expo start]. Depois abra sua camera e aponte para o QR Code que aparecerá.
+Para instalar o [Nodejs](https://nodejs.org/en/download/) 
+Para instalar o [Yarn](https://yarnpkg.com/getting-started/install)
+Para instalar o Expo no [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR&gl=US) ou no [IOS](https://apps.apple.com/br/app/expo-client/id982107779)
+
+No terminal: 
+git init 
+
+git clone https://github.com/rogerrm95/EcoTech.git
+
+cd/EcoTech
+
+yarn add expo 
+
+expo start
+
+Assim que o servidor abrir, vc terá um QR CODE para abrir o app no seu celular através do Expo.
