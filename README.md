@@ -13,9 +13,9 @@ No link abaixo você encontra o layout do projeto mobile. Caso você não tenha 
 - [Layout Mobile](https://www.figma.com/file/e5C8yxeXO4KXCha9UjGu28/EcoTech---Mobile)
 
 # 💻 Executando o projeto
-Para instalar o [Nodejs](https://nodejs.org/en/download/) 
-Para instalar o [Yarn](https://yarnpkg.com/getting-started/install)
-Para instalar o Expo no [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR&gl=US) ou no [IOS](https://apps.apple.com/br/app/expo-client/id982107779)
+- Para instalar o [Nodejs](https://nodejs.org/en/download/) 
+- Para instalar o [Yarn](https://yarnpkg.com/getting-started/install)
+- Para instalar o Expo no [Android](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR&gl=US) ou no [IOS](https://apps.apple.com/br/app/expo-client/id982107779)
 
 No terminal: 
 git init 
