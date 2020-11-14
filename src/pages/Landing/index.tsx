@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, Text, View } from 'react-native'
+import { Image, SafeAreaView, Text, View } from 'react-native'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 
 // Estilo //
@@ -26,7 +26,7 @@ function Landing() {
     }
 
     return (
-        <View style={styles.container}>
+        <SafeAreaView style={styles.container}>
             <View style={styles.header}>
                 <Image source={landingImage} resizeMode='contain' style={styles.image} />
 
@@ -62,7 +62,7 @@ function Landing() {
                     {`Copyright © 2020. EcoTech`}
                 </Text>
             </View>
-        </View>
+        </SafeAreaView>
     )
 }
 

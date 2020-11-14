@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, Text, View } from 'react-native'
+import { Image, SafeAreaView, Text, View } from 'react-native'
 import { TouchableOpacity } from 'react-native-gesture-handler'
 
 // Estilo //
@@ -13,7 +13,7 @@ import TopBarHeader from '../../components/TopBarHeader'
 function Info() {
 
     return (
-        <View style={styles.container}>
+        <SafeAreaView style={styles.container}>
             <TopBarHeader title={'Informações'} />
             <View>
                 <Image source={recycle} style={styles.recycleIcon} resizeMode='contain' />
@@ -42,7 +42,7 @@ function Info() {
                     <FontAwesome name='map' size={35} color={"#658b74"} />
                 </TouchableOpacity>
             </View>
-        </View>
+        </SafeAreaView>
     )
 }
 
