@@ -84,11 +84,7 @@ function MapPoints() {
                     location.map((place: any, index: number) => {
                         return <Marker
                             coordinate={place}
-<<<<<<< HEAD
-                            key={index}
-=======
                             key={`marker-${index}`}
->>>>>>> 004c8b9368cfbf8e24bbfdc9125fa8c362f8c85d
                             title={Address[place.id].name}
                         />
                     })
