@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState, version } from 'react'
-import { Image, Text, View } from 'react-native'
+import { Image, SafeAreaView, Text, View } from 'react-native'
 import { ScrollView, TouchableOpacity } from 'react-native-gesture-handler'
 
 // Estilo //
@@ -61,7 +61,7 @@ function MapPoints() {
     }, [])
 
     return (
-        <View style={styles.container}>
+        <SafeAreaView style={styles.container}>
 
             <TopBarHeader title={'Postos de Coleta'} />
 
@@ -142,7 +142,7 @@ function MapPoints() {
                 <Text style={styles.scrollText}>{`<<  Deslizar  >>`}</Text>
             </View>
             
-        </View >
+        </SafeAreaView >
     )
 }
 
