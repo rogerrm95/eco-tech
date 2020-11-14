@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native'
+import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 
 const styles = StyleSheet.create({
     container: {
@@ -14,16 +15,16 @@ const styles = StyleSheet.create({
     },
 
     recycleIcon: {
-        width: 175,
-        height: 175,
-        marginLeft: 5,
+        width: wp('80%'),
+        height: hp('30%'),
+        marginTop: wp("5%")
     },
 
     title: {
         marginTop: 75,
         marginLeft: 25,
         alignSelf: "flex-start",
-        fontSize: 25,
+        fontSize: 10,
         fontFamily: 'Signika_700Bold',
         color: "#2A6E45"
     },
@@ -32,15 +33,15 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         justifyContent: "center",
         alignItems: 'center',
-        padding: 12,
-        marginTop: 30
+        padding: 2,
+        marginTop: wp('3%')
     },
 
     buttons: {
         marginHorizontal: 10,
         padding: 4,
-        height: 150,
-        width: 150,
+        height: hp('20%') ,
+        width: wp('37%'),
         borderRadius: 8,
         justifyContent: "space-around",
         alignItems: "center"
@@ -76,7 +77,14 @@ const styles = StyleSheet.create({
         textAlign: "center",
     },
 
+    buttonTextSoon: {
+        fontFamily: "BalsamiqSans_700Bold",
+        fontSize: 12,
+        textAlign: "center",
+    },
+
     buttonTextTrash: {
+        fontSize: 17,
         color: "#A5E198"
     },
     buttonTextAbout: {
@@ -87,6 +95,20 @@ const styles = StyleSheet.create({
     },
     buttonTextStore:{
         color:"#658b74"
+    },
+
+    subTitle:{
+        color: "green",
+        fontSize: 25,
+        marginTop: 5,
+        marginLeft: -90,
+        fontFamily: "BalsamiqSans_700Bold"
+    },
+
+    icon: {
+        position:"absolute",
+        top: "38%",
+        left:"38%"
     },
 
     footer:{
