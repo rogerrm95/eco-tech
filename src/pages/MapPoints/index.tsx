@@ -114,6 +114,7 @@ function MapPoints() {
             >
 
                 {
+
                     // Carrega os dados do posto de coleta//
                     location.map((place : any, index: number) =>{
                         return (
