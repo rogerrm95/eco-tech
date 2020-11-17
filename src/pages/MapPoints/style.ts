@@ -1,4 +1,5 @@
 import { StyleSheet, Dimensions } from 'react-native'
+import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 
 const { width } = Dimensions.get('window')
 
@@ -33,7 +34,7 @@ const styles = StyleSheet.create({
 
     map: {
         position: "absolute",
-        top: 80,
+        top: hp("15%"),
         right: 0,
         left: 0,
         bottom: 0,
