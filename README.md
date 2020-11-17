@@ -30,3 +30,7 @@ yarn add expo
 expo start
 
 Assim que o servidor abrir, vc terá um QR CODE para abrir o app no seu celular através do Expo.
+
+# Observação sobre a aplicação
+- A aplicação necessita de uma Key para funcionamento.
+    - Devido a questões de custo, voce deve gerar uma key para testar a aplicação; isso se da ao limite de requisições que voce pode fazer em desenvolvimento.
