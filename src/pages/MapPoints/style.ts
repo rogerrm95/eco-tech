@@ -33,12 +33,12 @@ const styles = StyleSheet.create({
     },
 
     map: {
-        position: "absolute",
-        top: hp("15%"),
+        position: "relative",
+        top: 0,
         right: 0,
         left: 0,
         bottom: 0,
-        height: '100%',
+        height: hp("100%"),
         width: "100%",
     },
 
