@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native'
+import { widthPercentageToDP as wp, heightPercentageToDP as hp } from 'react-native-responsive-screen';
 
 const styles = StyleSheet.create({
     container: {
@@ -10,20 +11,19 @@ const styles = StyleSheet.create({
     header: {
         justifyContent: "center",
         alignItems: "center",
-        paddingTop: 50
+        paddingTop: hp("10%")
     },
 
     image: {
-        width: 300,
-        height: 300,
+        width: wp("90%"),
+        height: hp("35%"),
     },
 
     logo: {
         flexDirection: "row",
         justifyContent: 'center',
         alignItems: "center",
-        marginBottom: -2,
-        marginTop: 5 
+        marginBottom: -2
     },
 
     mouseIcon: {
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     },
 
     title: {
-        marginTop: 75,
+        marginTop: hp("5%"),
         marginLeft: 25,
         alignSelf: "flex-start",
         fontSize: 25,
@@ -50,8 +50,8 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         justifyContent: "center",
         alignItems: 'center',
-        padding: 12,
-        marginTop: 40
+        padding: 10,
+        marginTop: hp("5%")
     },
 
     buttons: {
@@ -91,7 +91,7 @@ const styles = StyleSheet.create({
 
     footer:{
         backgroundColor: "#7FBA95",
-        marginTop: 40,
+        marginTop: 0,
         width: "100%",
         padding: 7,
         justifyContent: "center",
