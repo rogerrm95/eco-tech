@@ -90,6 +90,8 @@ const styles = StyleSheet.create({
     },
 
     footer:{
+        position:"relative",
+        bottom: 0,
         backgroundColor: "#7FBA95",
         marginTop: 0,
         width: "100%",
